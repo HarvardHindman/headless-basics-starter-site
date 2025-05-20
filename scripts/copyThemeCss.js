@@ -22,20 +22,20 @@ const siteTheme = process.env.SITE_THEME || 'default';
 
 // Define source and destination directories
 const srcDir = path.resolve(
-  __dirname,
-  '../../headless-basics-components/src/theme',
+  process.cwd(),
+  'node_modules/@conversiondigital/headless-basics-components/src/theme',
   siteTheme,
   'styles'
 );
-const destDir = path.resolve(__dirname, `../theme/styles/component-lib-transfer`);
+const destDir = path.resolve(process.cwd(), `theme/styles/component-lib-transfer`);
 
 const configSrcPath = path.resolve(
-  __dirname,
-  '../../headless-basics-components/src/theme',
+  process.cwd(),
+  'node_modules/@conversiondigital/headless-basics-components/src/theme',
   siteTheme,
   'tailwind.config.js'
 );
-const configDestPath = path.resolve(__dirname, '../theme/styles/tailwind.config.js');
+const configDestPath = path.resolve(process.cwd(), 'theme/styles/tailwind.config.js');
 
 console.log(`Copying theme CSS for "${siteTheme}"...`);
 console.log(`Source directory: ${srcDir}`);
@@ -44,7 +44,7 @@ console.log(`Destination directory: ${destDir}`);
 try {
   // Ensure the destination directory exists
   fs.mkdirSync(destDir, { recursive: true });
-  
+
   // Read all files in the source directory
   const files = fs.readdirSync(srcDir);
   // Filter for only CSS files
@@ -57,7 +57,7 @@ try {
     fs.copyFileSync(sourceFilePath, destinationFilePath);
     console.log(`Successfully copied ${sourceFilePath} to ${destinationFilePath}`);
   });
-  
+
   if (cssFiles.length === 0) {
     console.warn('No CSS files found to copy.');
   }
