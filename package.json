@@ -18,8 +18,8 @@
   "dependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-typescript": "^7.26.0",
-    "@conversiondigital/headless-baisics-components": "https://github.com/Conversion-Digital/headless-basics-components.git#theme/harvard",
-    "@conversiondigital/headless-baisics-data": "https://github.com/Conversion-Digital/headless-basics-data.git#theme/harvard",
+    "@conversiondigital/headless-basics-components": "https://github.com/Conversion-Digital/headless-basics-components.git#theme/harvard",
+    "@conversiondigital/headless-basics-data": "https://github.com/Conversion-Digital/headless-basics-data.git#theme/harvard",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
