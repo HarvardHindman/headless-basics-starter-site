@@ -27,7 +27,7 @@ importers:
         version: 7.27.1(@babel/core@7.27.1)
       '@conversiondigital/headless-basics-components':
         specifier: https://github.com/Conversion-Digital/headless-basics-components.git#theme/harvard
-        version: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/b3efb2adae7fbd681680dfbd50680075c279309c(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.101)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.8(esbuild@0.25.4))(yaml@2.8.0)
+        version: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/37ac4bb0f2baed27e7e7e726af6da86cc9ce41a1(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.101)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.8(esbuild@0.25.4))(yaml@2.8.0)
       '@conversiondigital/headless-basics-data':
         specifier: https://github.com/Conversion-Digital/headless-basics-data.git#theme/harvard
         version: https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/fd76c89c085b2f2d63c9b37e0855d9c2955b044b(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(postcss@8.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.8(esbuild@0.25.4))(yaml@2.8.0)
@@ -807,9 +807,9 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/b3efb2adae7fbd681680dfbd50680075c279309c':
-    resolution: {tarball: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/b3efb2adae7fbd681680dfbd50680075c279309c}
-    version: 1.1.2
+  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/37ac4bb0f2baed27e7e7e726af6da86cc9ce41a1':
+    resolution: {tarball: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/37ac4bb0f2baed27e7e7e726af6da86cc9ce41a1}
+    version: 1.1.3
     peerDependencies:
       react: ^17.0 || ^18.0 || ^19.0
       react-dom: ^16.8 || ^17.0 || ^18.0 || ^19.0
@@ -10032,7 +10032,7 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/b3efb2adae7fbd681680dfbd50680075c279309c(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.101)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.8(esbuild@0.25.4))(yaml@2.8.0)':
+  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/37ac4bb0f2baed27e7e7e726af6da86cc9ce41a1(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.101)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.8(esbuild@0.25.4))(yaml@2.8.0)':
     dependencies:
       '@babel/cli': 7.23.9(@babel/core@7.24.0)
       '@babel/core': 7.24.0
